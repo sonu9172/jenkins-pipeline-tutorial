@@ -33,7 +33,7 @@ pipeline {
         }
     }
 }
-// parallel stage 
+
 
 pipeline {
     agent any
