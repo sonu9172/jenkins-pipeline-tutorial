@@ -31,7 +31,7 @@ pipeline {
                 echo 'Save the assemblies generated from the compilation' 
             }
         }
-           stages {
+        stages {
         stage('Non-Parallel Stage') {
             steps {
                 echo 'This stage will be executed first.'
